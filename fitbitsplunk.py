@@ -231,9 +231,8 @@ if __name__ == '__main__':
     fh = open(args.output, 'a+')
 
     summary = {}
-    # leaving out floors and elevation here because I don't have it
     activities = [
-        'calories', 'steps', 'distance',
+        'calories', 'steps', 'distance', 'floors', 'elevation',
         'minutesSedentary', 'minutesLightlyActive',
         'minutesFairlyActive', 'minutesVeryActive', 'activityCalories']
 
